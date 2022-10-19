@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #262628;
+    display: flex;
+    
+    
+  }
+
+  .navbar2 {
+    
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: row;
+    
+  }
+
+  .navbar2 button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    height: 40px;
+    color: rgb(231, 232, 234);
+    text-decoration: none;
+    font-size: 17px;
+    margin: 5px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+      "Lucida Sans", Arial, sans-serif;
+    font-weight: 10;
+
+  }
+  
