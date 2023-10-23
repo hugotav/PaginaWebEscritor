@@ -12,7 +12,7 @@ function Navbar() {
     return <div className='navbar'>
 
             <div className='navbar1'>
-                <button>H TAVARES</button>
+                <button>H TAVdadadaARES</button>
             </div>
 
             <div className='navbar2'>
