@@ -1,0 +1,66 @@
+import React, { useState } from 'react'
+
+//import { Link } from 'react-router-dom'
+//import ReorderIcon from "@material-ui/icons/Reorder";
+
+import '../styles/Livros.css'
+import Relatos from '../assets/Relatos.jpg'
+import Estorias from '../assets/Estorias.png'
+import Penumbra from '../assets/Penumbra.jpg'
+
+
+function Livros() {
+
+      
+    return <div className=''>
+                <div className='livros'>
+                    <div className='livros1'>
+                        <p>Relatos Urbanos reúne treze contos com narrativas breves, ágeis e concisas,
+                            que abordam a obsessão e a barbárie humana no cotidiano. Ambientadas nos 
+                            anos 80 e 90, as estórias são marcadas pelo ar sombrio, realista e sarcástico.
+                        </p>
+                    </div>
+                    <div className='livros2'>
+                        <img src={Relatos}/>
+                        <p>Relatos Urbanos (2019)</p>
+                    </div>
+                </div>
+                <div className='livros'>
+                    <div className='livros1'>
+                        <p>Estórias tétricas apresenta onze contos ambientados em terras paraenses 
+                            que retratam a violência urbana por lentes realistas, cruas e, por vezes, 
+                            até irônicas. A narrativa aguda e visceral escancara a sociedade na sarjeta, 
+                            onde selvageria e condutas humanas se fundem.
+                        </p>
+                    </div>
+                    <div className='livros2'>
+                        <img src={Estorias}/>
+                        <p>Estórias Tétricas (2020)</p>
+                    </div>
+                </div>
+                <div className='livros'>
+                    <div className='livros1'>
+                        <p>Belém, 1984. A rotina do investigador de polícia Charles Magno cruza com um 
+                            suicídio em um prédio no centro da cidade. À medida que a investigação 
+                            avança, mais ocorrências são deflagradas, tornando o edifício conhecido 
+                            pelo encontro com a morte. Breu, violência e misticismo se misturam em uma 
+                            narrativa intensa sobre a busca por fatos.
+                        </p>
+                    </div>
+                    <div className='livros2'>
+                        <img src={Penumbra}/>
+                        <p>A Penumbra na Janela (2022)</p>
+                    </div>
+                </div>
+                
+
+        </div>
+        
+
+        
+
+        
+
+}
+
+export default Livros;

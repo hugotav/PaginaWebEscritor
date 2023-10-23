@@ -1,0 +1,15 @@
+/* ImageCarousel.css */
+.image-carousel {
+  margin-top: -150px;
+  
+  }
+
+.image-carousel img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  max-height: 400px; /* Defina a altura máxima desejada para as imagens */
+  width: auto; /* Garanta que as imagens se ajustem ao tamanho máximo */
+  margin: 0 auto; /* Centralize as imagens horizontalmente */
+}
+

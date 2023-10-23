@@ -1,0 +1,40 @@
+.home {
+    background-color: #dbdbdb;
+    display: flex;
+    
+    
+  }
+
+  .home1 {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    
+  }
+  .home2 {
+    width: 50%;
+    
+    margin-top: 10%;
+
+  }
+
+  .home1 img {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 10%;
+    
+  }
+
+  .home2 p{
+    align-self: center;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    word-wrap: break-word;
+    margin-right: 20%;
+    font-weight: bold;
+      
+    
+  }
+
+  

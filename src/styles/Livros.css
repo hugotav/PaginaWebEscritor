@@ -1,0 +1,39 @@
+.livros {
+    background-color: #ffffff;
+    display: flex;
+  }
+
+  .livros2 {
+    width: 50%;
+  }
+  .livros1 {
+    width: 50%;    
+    margin-top: 10%;
+  }
+
+  .livros2 img {
+    width: 35%;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+
+  .livros2 p {
+    align-self: center;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    word-wrap: break-word;
+    margin-top: 0;
+    font-weight: bold;
+    margin-left: 11.5%;
+  }
+
+  .livros1 p{
+    align-self: center;
+    text-align: justify;
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    word-wrap: break-word;
+    margin-left: 40%;
+    font-weight: bold;
+  }
